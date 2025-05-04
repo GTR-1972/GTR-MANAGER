@@ -1,0 +1,44 @@
+{
+    "name": "gtr",
+    "version": "2.0.2",
+    "description": "Process manager for GTR applications (similar to PM2)",
+    "main": "index.js",
+    "bin": {
+        "gtr": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "chmod +x index.js",
+        "publish-npm": "node npm-publish.js",
+        "postinstall": "node -e \"console.log('\\n\\x1b[32m✓ GTR Manager installed successfully!\\x1b[0m\\n\\x1b[36mRun \\'gtr --help\\' to get started\\x1b[0m\\n')\""
+    },
+    "keywords": [
+        "gtr",
+        "process",
+        "manager",
+        "pm2",
+        "application",
+        "nodejs",
+        "daemon",
+        "process-manager"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "cli-table3": "^0.6.3",
+        "commander": "^10.0.0",
+        "gtr": "^0.1.0"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gtr-1972/gtr-manager.git"
+    },
+    "bugs": {
+        "url": "https://github.com/gtr-1972/gtr-manager/issues"
+    },
+    "homepage": "https://github.com/gtr-1972/gtr-manager#readme"
+}

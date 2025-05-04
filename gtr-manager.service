@@ -1,0 +1,16 @@
+[Unit]
+Description=GTR Manager Service
+After=network.target
+
+[Service]
+Type=forking
+User=root
+ExecStart=/usr/bin/env node /usr/local/bin/gtr resurrect
+Restart=on-failure
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=gtr-manager
+
+[Install]
+WantedBy=multi-user.target
