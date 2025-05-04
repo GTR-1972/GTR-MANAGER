@@ -6,25 +6,27 @@ A process manager for GTR applications, similar to PM2 but specifically designed
 
 ### Quick Installation (recommended)
 
+ # Install globally
+1 -
 ```bash
-# Using curl
-curl -sSL https://raw.githubusercontent.com/GTR-1972/gtr-manager/main/install.sh | bash
-
-# OR using wget
-wget -qO- https://raw.githubusercontent.com/GTR-1972/gtr-manager/main/install.sh | bash
-```
-
-### Manual Installation
-
-```bash
-# Install globally
 npm install gtr
-
-# Install systemd service for auto-start on boot (optional)
-sudo bash -c "$(curl -sSL https://raw.githubusercontent.com/GTR-1972/gtr-manager/main/setup-systemd.sh)"
 ```
 
-## Usage
+1 - Or 
+```bash
+git clone https://github.com/GTR-1972/GTR-MANAGER.git
+```
+
+2 -
+
+```bash
+npm install
+```
+3-
+
+```bash
+gtr help
+```
 
 ### Starting an application
 
