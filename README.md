@@ -14,7 +14,7 @@ npm install gtr
 
 1 - Or 
 ```bash
-git clone https://github.com/GTR-1972/GTR-MANAGER.git
+git clone https://github.com/GTR-MANAGER-1972/GTR-MANAGER.git
 ```
 
 2 -
