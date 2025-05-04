@@ -8,20 +8,20 @@ A process manager for GTR applications, similar to PM2 but specifically designed
 
 ```bash
 # Using curl
-curl -sSL https://raw.githubusercontent.com/GTR-1972/gtr-manager/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/GTR-1972/gtr-manager/install.sh | bash
 
 # OR using wget
-wget -qO- https://raw.githubusercontent.com/GTR-1972/gtr-manager/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/GTR-1972/gtr-manager/install.sh | bash
 ```
 
 ### Manual Installation
 
 ```bash
 # Install globally
-npm install -g gtr-manager
+npm install gtr
 
 # Install systemd service for auto-start on boot (optional)
-sudo bash -c "$(curl -sSL https://raw.githubusercontent.com/GTR-1972/gtr-manager/main/setup-systemd.sh)"
+sudo bash -c "$(curl -sSL https://raw.githubusercontent.com/GTR-1972/gtr-manager/setup-systemd.sh)"
 ```
 
 ## Usage
